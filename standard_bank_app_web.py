@@ -3,9 +3,10 @@ import numpy as np
 import pickle
 
 # Load the trained model
-with open('C:/Users/kh/Downloads/Standard Bank/logistic_regression_model.pkl', 'rb') as file:
+#with open('C:/Users/kh/Downloads/Standard Bank/logistic_regression_model.pkl', 'rb') as file:
+ #   loaded_model = pickle.load(file)
+with open('C:/Users/kh/Downloads/Standard Bank/trained_lr.sav', 'rb') as file:
     loaded_model = pickle.load(file)
-
 def predict_loan_approval(data):
     input_data = np.array(list(data.values())).reshape(1, -1)
     prediction = loaded_model.predict(input_data)
