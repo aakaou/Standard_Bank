@@ -42,3 +42,11 @@ Contributions are welcome! Feel free to submit issues or pull requests.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Deployment Video
+
+[![Deployment Video] 
+
+https://github.com/aakaou/Standard_Bank/assets/126001077/82e961f5-15f5-4f5c-840b-46b4e9a36adc
+
+
